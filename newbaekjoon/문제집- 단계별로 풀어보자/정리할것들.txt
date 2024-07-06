@@ -1,0 +1,18 @@
+input 으로 입력된 while문 사용법
+
+https://suwoni-codelab.com/python%20%EA%B8%B0%EB%B3%B8/2018/03/02/Python-Basic-While/
+백준 4101 5086
+
+  >>> while True:
+  ...     response = input('숫자를입력하세요:')
+  ...     if int(response) % 10 == 0 :
+  ...             print('10으로 나누었을때 나머지가 0입니다.')
+  ...             break
+  ...
+while True 루프:
+while True 루프는 항상 True로 설정된 조건으로 무한 루프를 만듭니다. 따라서 루프 내부에서 break 문을 사용하여 명시적으로 루프를 종료해야 합니다.
+주로 무한 루프를 만들 때 사용하며, 내부에서 다양한 조건을 검사하여 루프를 종료하는 로직을 추가할 수 있습니다.
+
+while 루프:
+while 루프는 주어진 조건이 True일 때 루프가 실행됩니다. 조건식을 평가한 결과가 False가 되면 루프가 종료됩니다.
+루프의 조건식에 어떤 불리언 표현식도 사용할 수 있습니다.

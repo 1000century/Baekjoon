@@ -1,0 +1,12 @@
+a = []
+a.append (int(input()))
+a.append (int(input()))
+a.append (int(input()))
+a.append (int(input()))
+a.append (int(input()))
+a.append (int(input()))
+a.append (int(input()))
+a.append (int(input()))
+a.append (int(input()))
+print(max(a))
+print(a.index(max(a))+1)
